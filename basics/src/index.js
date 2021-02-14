@@ -30,6 +30,7 @@ const typeDefs = `
         title: String!
         body: String!
         published: Boolean!
+        author: User!
     }
 `
 
@@ -81,6 +82,14 @@ const resolvers = {
         //         return accumulator + currentValue;
         //     });
         // },
+    },
+    Post: {
+        author(parent, args, ctx, info) {
+            console.log(parent);
+            return db.users.find((user) => {
+                return user.id === parent.author
+            })
+        }
     }
 }
 

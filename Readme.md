@@ -9,3 +9,4 @@
 5- Operation Arguments
 6- Working with Scalar Arrays
 7- Working with Custom Arrays
+8- Relational Data: Basics

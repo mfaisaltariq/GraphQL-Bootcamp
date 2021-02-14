@@ -23,19 +23,22 @@
             "id": "1",
             "title": "Post1",
             "body": "This is my title test",
-            "published": true
+            "published": true,
+            "author": "1"
         },
         {
             "id": "2",
             "title": "Test",
             "body": "This is a test",
-            "published": false
+            "published": false,
+            "author": "3"
         },
         {
             "id": "3",
             "title": "Test2",
             "body": "This is my post1",
-            "published": true
+            "published": true,
+            "author": "3"
         }
     ]
 }
