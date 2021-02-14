@@ -1,0 +1,41 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "name": "faisal",
+            "email": "faisal@abc.com",
+            "age": 25
+        },
+        {
+            "id": "2",
+            "name": "sarah",
+            "email": "sarah@abc.com"
+        },
+        {
+            "id": "3",
+            "name": "mike",
+            "email": "mike@abc.com",
+            "age": 25
+        }
+    ],
+    "posts": [
+        {
+            "id": "1",
+            "title": "Post1",
+            "body": "This is my title test",
+            "published": true
+        },
+        {
+            "id": "2",
+            "title": "Test",
+            "body": "This is a test",
+            "published": false
+        },
+        {
+            "id": "3",
+            "title": "Test2",
+            "body": "This is my post1",
+            "published": true
+        }
+    ]
+}
